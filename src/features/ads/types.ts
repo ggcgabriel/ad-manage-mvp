@@ -1,4 +1,9 @@
-export type Ad = {
+export type AdTemplate = {
   id: string;
-  // extend as needed
+  title: string;
+  description: string;
+  category: string;
+  imageUrl: string;
+  dimensions: { width: number; height: number };
+  creditCost: number;
 };
